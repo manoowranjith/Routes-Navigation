@@ -1,0 +1,8 @@
+<div style="padding:20px;display: flex;justify-content: space-evenly;background-color: white;">
+<h2>HOME PAGE</h2>
+<button id="logout" [routerLink]="['/login']">Logout</button>
+<button id="viewInvoice"  (click)="view()">View Invoice</button>
+<button id="addInvoice" (click)="create()">Create Invoice</button>
+<button id="UpdateInvoice" (click)="update()">Update Invoiice</button>
+</div>
+<router-outlet></router-outlet>

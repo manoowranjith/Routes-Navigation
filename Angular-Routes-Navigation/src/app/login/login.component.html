@@ -1,0 +1,14 @@
+<body class="login-page">
+    <div class="login">
+        <form [formGroup]="submitForm" (ngSubmit)="GetUserData()" action="">
+            <label for="">Email</label>
+            <input id="username" formControlName="email" type="email">
+            <br> <br>
+            <label id="password" for="">Password</label>
+            <input formControlName="password" type="password">
+            <br> <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+

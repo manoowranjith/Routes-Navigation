@@ -1,0 +1,10 @@
+h2{
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    width: 50vw;
+}
+button{
+    border:none;
+    background-color: rgb(162, 253, 218);
+    padding:10px 20px
+}
